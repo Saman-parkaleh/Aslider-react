@@ -1,0 +1,65 @@
+.box {
+  width: 400px;
+  height: 400px;
+  background:linear-gradient(45deg ,rgb(219, 187, 157,.5) ,rgb(23, 146, 228,.5));
+  box-shadow: 0px 0px 5px 2px rgb(197, 156, 156);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+}
+.imgs {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 3px;
+}
+.name {
+  font-weight: 900;
+  color: rgb(128, 5, 5);
+  font-size: 20px;
+  margin: 5px;
+}
+.job {
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(21, 21, 87);
+  border-bottom: 2px solid rgb(0, 0, 0, 0.2);
+  margin: 10px;
+}
+.lorem {
+  font-style: oblique;
+  margin: 10px;
+  width: 300px;
+  border-radius: 1px;
+  border: 1px solid;
+  padding: 9px;
+  box-shadow: 0px 0px 2px .1px rebeccapurple;
+  text-align: center;
+  
+}
+button{
+  margin: 10px;
+  background:linear-gradient(30deg, rgb(249, 249, 250),red);
+  border: 0;
+  padding: 5px;
+  box-shadow: 0px 0px 5px 2px rebeccapurple;
+  border-radius: 8px;
+  
+}
+ @keyframes back { 
+   0% {
+    background-position:0% 50%;
+   }
+   50% {
+    background-position:50% 100%;
+   }
+   100% {
+    background-position:0% 50%;
+   }
+
+   }
